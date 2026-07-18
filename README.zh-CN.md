@@ -10,6 +10,20 @@ Teleport 是一款原生 macOS 应用，可以伪造 iOS 设备的定位——�
 
 ![Teleport – 路线构建](Resources/screenshot-route.jpg)
 
+## 安装
+
+### Homebrew
+
+```sh
+brew tap samuelhe52/teleport
+brew trust --cask samuelhe52/teleport/teleport
+brew install --cask samuelhe52/teleport/teleport
+```
+
+### 直接下载
+
+从 [Releases](https://github.com/samuelhe52/Teleport/releases) 下载最新 `.dmg`，将 `Teleport.app` 拖入应用程序文件夹，然后启动。
+
 ## 功能
 
 **全面的设备支持** — 同一个应用，支持 iOS 模拟器和通过 USB 或 Wi-Fi 连接的实体 iPhone。
@@ -59,19 +73,15 @@ python3 -m pip install --upgrade pymobiledevice3
 
 Teleport 的真机定位模拟要求 `pymobiledevice3` 版本不低于 5.0。
 
-## 开始使用
+## 从源码运行
 
-### 下载
-
-从 [Releases](https://github.com/samuelhe52/Teleport/releases) 下载最新 `.dmg`，将 `Teleport.app` 拖入应用程序文件夹，然后启动。
-
-### 在 Xcode 中运行
+### Xcode
 
 1. 打开 `Teleport.xcodeproj`。
 2. 选择 `Teleport` scheme。
 3. 构建并运行。
 
-### 从命令行构建
+### 命令行
 
 ```sh
 xcodebuild -project Teleport.xcodeproj -scheme Teleport -destination 'platform=macOS' build

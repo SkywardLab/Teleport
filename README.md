@@ -10,6 +10,20 @@ It's built with SwiftUI and MapKit. Click somewhere on the map, hit Simulate, an
 
 ![Teleport – route builder](Resources/screenshot-route.jpg)
 
+## Install
+
+### Homebrew
+
+```sh
+brew tap samuelhe52/teleport
+brew trust --cask samuelhe52/teleport/teleport
+brew install --cask samuelhe52/teleport/teleport
+```
+
+### Direct download
+
+Download the latest `.dmg` from [Releases](https://github.com/samuelhe52/Teleport/releases), drag `Teleport.app` to Applications, and launch it.
+
 ## What It Does
 
 **Full device support** — works with iOS Simulators and real iPhones over USB or Wi-Fi, all from the same app.
@@ -59,19 +73,15 @@ python3 -m pip install --upgrade pymobiledevice3
 
 Teleport requires `pymobiledevice3` 5.0 or newer for physical-device simulation.
 
-## Getting Started
+## Build from Source
 
-### Download
-
-Grab the latest `.dmg` from the [Releases](https://github.com/samuelhe52/Teleport/releases) page, drag `Teleport.app` to Applications, and launch it.
-
-### Run in Xcode
+### Xcode
 
 1. Open `Teleport.xcodeproj`.
 2. Select the `Teleport` scheme.
 3. Build and run.
 
-### Build from the command line
+### Command line
 
 ```sh
 xcodebuild -project Teleport.xcodeproj -scheme Teleport -destination 'platform=macOS' build
