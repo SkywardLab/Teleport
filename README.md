@@ -17,7 +17,7 @@ It's built with SwiftUI and MapKit. Click somewhere on the map, hit Simulate, an
 ```sh
 brew tap samuelhe52/teleport
 brew trust --cask samuelhe52/teleport/teleport-location
-brew install --cask samuelhe52/teleport/teleport-location
+brew install --cask teleport-location
 ```
 
 ### Direct download

@@ -17,7 +17,7 @@ Teleport 是一款原生 macOS 应用，可以伪造 iOS 设备的定位——�
 ```sh
 brew tap samuelhe52/teleport
 brew trust --cask samuelhe52/teleport/teleport-location
-brew install --cask samuelhe52/teleport/teleport-location
+brew install --cask teleport-location
 ```
 
 ### 直接下载
