@@ -10,6 +10,9 @@ Teleport 是一款原生 macOS 应用，可以伪造 iOS 设备的定位——�
 
 ![Teleport – 路线构建](Resources/screenshot-route.jpg)
 
+> [!WARNING]
+> **iOS 27 和 macOS 27 尚未经过测试，也暂不支持。** 有报告称，iOS 27 设备不会出现在 Teleport 中；更新后可能无法发现或模拟实体设备。请在更新前评估这一风险。兼容性更新最早预计于 8 月下旬发布。
+
 ## 安装
 
 ### Homebrew

@@ -10,6 +10,9 @@ It's built with SwiftUI and MapKit. Click somewhere on the map, hit Simulate, an
 
 ![Teleport – route builder](Resources/screenshot-route.jpg)
 
+> [!WARNING]
+> **iOS 27 and macOS 27 are not yet tested or supported.** There are reports that iOS 27 devices do not appear in Teleport, so updating may prevent you from discovering or simulating a physical device. Please weigh that risk before updating. We expect to ship a compatibility update no earlier than late August.
+
 ## Install
 
 ### Homebrew
